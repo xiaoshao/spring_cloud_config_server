@@ -7,3 +7,9 @@ spring:
         git:
           uri: https://github.com/xiaoshao/config-center
         basedir: config
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
